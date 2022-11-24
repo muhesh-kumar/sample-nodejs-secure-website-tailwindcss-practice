@@ -1,9 +1,10 @@
 {
   "name": "sample-nodejs-secure-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "author": "Muhesh Kumar",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon app.js",
@@ -13,12 +14,15 @@
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
+    "helmet": "^6.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.6.3",
+    "morgan": "^1.10.0",
     "validator": "^13.7.0"
   }
 }

@@ -1,5 +1,7 @@
 # sample-nodejs-secure-website
 
+https://medium.com/devops-dudes/secure-front-end-react-js-and-back-end-node-js-express-rest-api-with-keycloak-daf159f0a94e
+
 - Used FlowBite for form components
 - Used Tailwindcss for styling
 
@@ -28,7 +30,7 @@ $ git clone https://github.com/muhesh-kumar/sample-nodejs-secure-website.git
 $ yarn # or npm i
 ```
 
-## project structure
+<!-- ## project structure
 
 ```terminal
 LICENSE
@@ -39,17 +41,17 @@ server/
 client/
    package.json
 ...
-```
+``` -->
 
-# Usage (run fullstack app on your machine)
+<!-- # Usage (run fullstack app on your machine) -->
 
-## Prerequisites
+<!-- ## Prerequisites
 
 - [MongoDB](https://gist.github.com/nrollr/9f523ae17ecdbb50311980503409aeb3)
 - [Node](https://nodejs.org/en/download/) ^v16.14.2
 - [npm](https://nodejs.org/en/download/package-manager/)
 
-notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other
+notice, you need client and server runs concurrently in different terminal session, in order to make them talk to each other -->
 
 <!-- ## Client-side usage(PORT: 3000)
 
@@ -107,13 +109,13 @@ remember to update the file of [client/webpack.prod.js](https://github.com/amazi
  'API_URI': JSON.stringify('https://your-super-amazing-heroku-app.herokuapp.com')
 ``` -->
 
-# Dependencies(tech-stacks)
+<!-- # Dependencies(tech-stacks)
 
 ## Client Side Dependencies
 
 ## Server Side Dependencies
 
-# Screenshots of this project
+# Screenshots of this project -->
 
 <!-- User visit public and Home page
 ![User visit public and Home page](http://i.imgur.com/ORCGHHY.png)
